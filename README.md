@@ -5,7 +5,7 @@ Simple messaging App
 
 Clone the repositoty
 Run the command: composer install
-Run the command: nom install
+Run the command: npm install
 Rename the .env.example to .env file and configure the database
 
 Migrations: "php artisan migrate:fresh"
