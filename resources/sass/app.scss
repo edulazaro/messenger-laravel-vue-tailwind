@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '~vue-flash-message/dist/vue-flash-message.min.css';
+
+.notification {
+    top:20px;
+    right:20px;
+    position: fixed;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    svg {
+        margin-top:-2px;
+    }
+    ul {
+        margin-top:1.5rem;
+        li {
+            a {
+                padding: 1rem;
+                font-size: 1.1em;
+                display: block;  
+                color: #fff;
+
+                &:hover {
+                    cursor:pointer;
+                    color: #7386D5;
+                    background: #fff;
+                    
+                }
+
+                &.router-link-exact-active  {
+                    background: #6d7fcc !important;
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+}
+
+.user-list {
+    min-width: 300px;
+}
