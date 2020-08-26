@@ -4,7 +4,7 @@
 Simple messaging App
 
 Clone the repositoty
-Run the command command: composer install
+Run the command: composer install
 Run the command: nom install
 Rename the .env.example to .env file and configure the database
 
