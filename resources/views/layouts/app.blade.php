@@ -46,7 +46,7 @@
                     <div class="items-center text-center">
       
                             <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline p-2 my-3 block">
-                                {{ config('app.name', 'Elixirr') }}
+                                {{ config('app.name', 'EduMessaging') }}
                             </a>
                             <span class="text-gray-300 text-sm block">{{ Auth::user()->name }}</span>
                    

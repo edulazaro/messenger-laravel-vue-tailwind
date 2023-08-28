@@ -18,12 +18,11 @@ class CreateMessagesTable extends Migration
             $table->integer('user_id')->unsigned()->references('id')->on('users');
             $table->integer('from')->unsigned()->references('id')->on('users');
             $table->integer('to')->unsigned()->references('id')->on('users');
-            $table->text('subject')->default("(no subject)");
+            $table->string('subject')->default("(no subject)");
             $table->text('content');
             $table->dateTime('read_at')->nullable();
             $table->dateTime('archived_at')->nullable();
             $table->timestamps();
-            $table->engine = "InnoDB";
         });
     }
 
